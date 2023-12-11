@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.header button {
+    flex: 0 0 auto;
+}
+.header input {
+    flex: 1 1 auto;
+    max-width: unset;
+}
+
+.user-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid white;
+    width: 100%;
+    min-width: 600px;
+}
+
+.user-item__name {
+    flex: 1 1 auto;
+    text-align: left;
+}
+
+.user-item__controls {
+    flex: 0 0 auto;
+    margin-left: auto;
+}
+
+.user-item__controls button {
+    margin-left: 10px;
+}
